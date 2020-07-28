@@ -74,7 +74,7 @@ following code into your `.emacs`.
 
 If you use Emacs and SLY, it is recommended to install
 `misc/sly-annot.el` which contains some features of annotations.
-After locating `misc/slime-annot.el` into your loadpath, write the
+After locating `misc/sly-annot.el` into your loadpath, write the
 following code into your `.emacs`.
 
     (require 'sly-annot)
