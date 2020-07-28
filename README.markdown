@@ -65,12 +65,19 @@ After this code, `@...` syntax can be used.
 Emacs Configuration
 -------------------
 
-If you use Emacs, it is recommended to install `misc/slime-annot.el`
-which contains some features of annotations. After locating
-`misc/slime-annot.el` into your loadpath, write the following code
-into your `.emacs`.
+If you use Emacs and SLIME, it is recommended to install
+`misc/slime-annot.el` which contains some features of annotations.
+After locating `misc/slime-annot.el` into your loadpath, write the
+following code into your `.emacs`.
 
     (require 'slime-annot)
+
+If you use Emacs and SLY, it is recommended to install
+`misc/sly-annot.el` which contains some features of annotations.
+After locating `misc/slime-annot.el` into your loadpath, write the
+following code into your `.emacs`.
+
+    (require 'sly-annot)
 
 Standard Annotations
 --------------------
